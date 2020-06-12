@@ -1,6 +1,6 @@
 const fs = require('fs')
 const fse = require('fs-extra')
-const swaggerUiAssetPath = require('swagger-ui-dist').getAbsoluteFSPath()
+const swaggerUiAssetPath = require('voicenter-swagger-ui-dist').getAbsoluteFSPath()
 const resolve = require('path').resolve
 
 fse.emptyDirSync(resolve('./static'))
