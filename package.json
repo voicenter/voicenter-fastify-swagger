@@ -1,6 +1,6 @@
 {
-  "name": "fastify-swagger",
-  "version": "3.0.0",
+  "name": "voicenter-fastify-swagger",
+  "version": "3.0.1",
   "description": "Generate Swagger files automatically for Fastify.",
   "main": "index.js",
   "scripts": {

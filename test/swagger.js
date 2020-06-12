@@ -191,7 +191,7 @@ test('fastify.swagger should default info properties', t => {
     t.error(err)
 
     const swaggerObject = fastify.swagger()
-    t.equal(swaggerObject.info.title, 'fastify-swagger')
+    t.equal(swaggerObject.info.title, 'voicenter-fastify-swagger')
     t.equal(swaggerObject.info.version, '1.0.0')
   })
 })
